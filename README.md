@@ -3,7 +3,7 @@
 A stir plate with a twist. It packs a DHT22 which reads temp and humidity. It has a manual and auto mode through Particle Cloud.
 This allows to publish the temp and humidity to Particle Cloud and automatic speed control of the fan as well.
 
-![4655BrewCoStirPlate](./doc/media/4655brewco-stirplate-01.jpg)
+![4655BrewCoStirPlate](./doc/media/4655BrewCoStirPlate-01.jpg)
 
 ## Getting Started
 
@@ -27,6 +27,12 @@ Install the following extensions to Visual Studio Code
 
 - [C/C++][vs-code-cpp]
 
+#### Breadboard and Co
+
+To get you started, here is the breadboard setup.
+
+![4655BrewCoStirPlate](./doc/media/4655BrewCoStirPlate_bb.png)
+
 ## Development
 
 To develop, open the folder in Visual Studio Code and hack along. Once ready to compile, simply hit CTRL-SHIFT-B. To publish, hit CTRL-SHIFT-P, select Task compile and it will be published to the Core.
@@ -47,6 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE][project-licen
 
 - [Hackster.io - Use Visual Studio Code for your Particle Development Needs][hackster-io-howto-vs-code-particle]
 - [Particle Docs - Working with projects and libraries][particle-doc-cli-projects]
+- [Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone][fritzing]
 
 <!-- Link references -->
 [project-tags]: https://github.com/4655BrewCo/4655BrewCoStirPlate/tags
@@ -56,4 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE][project-licen
 [particle]: http://particle.io/
 [particle-doc-cli-projects]: https://docs.particle.io/guide/tools-and-features/cli/photon/#working-with-projects-and-libraries
 [semver]: http://semver.org/
+[hackster-io-4655brewco]: https://www.hackster.io
 [hackster-io-howto-vs-code-particle]: https://www.hackster.io/gusgonnet/use-visual-studio-code-for-your-particle-development-needs-9e23bc
+[fritzing]: http://fritzing.org
